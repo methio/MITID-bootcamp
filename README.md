@@ -9,6 +9,8 @@ Everything you need for MITID bootcamp!
   * [Add johnny five to your P5.js sketch](#p5js)
   * [Components documentation](#johnny-five-documentation-for-almost-each-components-from-your-kit)
 - [ML5.js](#)
+  * [Add bodyPose to your P5.js sketch](#bodypose)
+
 
 ## How to use this repo
 
