@@ -27,7 +27,7 @@ function draw() {
     image(video, 0,0);
 
     if(poses.length > 0){
-        circle(poses[0].left_eye.x, poses[0].left_eye.y, 20);
+        // circle(poses[0].left_eye.x, poses[0].left_eye.y, 20);
         let lear = poses[0].left_ear;
         let rear = poses[0].right_ear;
 
@@ -70,9 +70,16 @@ function draw() {
         let leye = poses[0].left_eye;
         let reye = poses[0].right_eye;
 
-
         let distance = dist(leye.x, leye.y, reye.x, reye.y);
         console.log(distance);
+
+        // draw glasses
+        strokeWeight(2);
+        stroke(255,0,0);
+        noFill();
+
+        circle(leye.x, leye.y, distance);
+        
 
 
         
